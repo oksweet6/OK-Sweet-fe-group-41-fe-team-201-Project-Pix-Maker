@@ -1,8 +1,9 @@
 body {
+    background-color:rgba(211, 148, 219, 0.685);
     text-align: center;
 }
 
-h1 {
+.udacity {
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
@@ -37,4 +38,7 @@ td {
 
 input[type=number] {
     width: 6em;
+}
+.emma {
+    float: right;
 }
