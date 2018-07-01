@@ -4,10 +4,28 @@ body {
 }
 
 .udacity {
+    padding: 25px 80px 75px 200px;
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
-    text-shadow: 6px 6px #FF0000;
+    text-shadow: 6px 6px rgb(151, 94, 241);
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: green;}
 }
 
 h2 {
