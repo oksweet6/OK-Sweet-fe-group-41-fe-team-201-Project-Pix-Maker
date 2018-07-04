@@ -32,12 +32,22 @@ function makeGrid(n, o) {
     });
 } 
 $(".emma").click(function(em) {
-    var div = $("#colorPicker");
+    var div = $("#pixelCanvas");
     div.animate({height: '100px', opacity: '0.4'}, "slow");
     div.animate({width: '100px', opacity: '0.8'}, "slow");
     div.animate({height: '50px', opacity: '0.4'}, "slow");
     div.animate({width: '500px', opacity: '0.8'}, "slow");
-em = alert("Thank very much Udacity\n I appreciate the effort in making me a front end web developer\n love you!"), alert("OK-Sweet(fe-group-41),(fe-team-201) designed this site");
-return $("tr").remove();
+    var pap = $("#colorPicker");
+    pap.animate({height: '100px', opacity: '0.4'}, "slow");
+    pap.animate({width: '100px', opacity: '0.8'}, "slow");
+    pap.animate({height: '50px', opacity: '0.4'}, "slow");
+    pap.animate({width: '500px', opacity: '0.8'}, "slow");
+    var emm = $("#sizePicker");
+    emm.animate({height: '200px', opacity: '0.4'}, "slow");
+    emm.animate({width: '200px', opacity: '0.8'}, "slow");
+    emm.animate({height: '10px', opacity: '0.4'}, "slow");
+    emm.animate({width: '500px', opacity: '0.8'}, "slow");
+em = alert("Thank very much Udacity\n I appreciate the effort in making me a front end web developer\n love you!"),
+alert("OK-Sweet(fe-group-41),(fe-team-201) designed this site");
 })
 // Your code goes here!
