@@ -10,10 +10,10 @@ body {
     margin: 0.2em;
     text-shadow: 6px 6px rgb(151, 94, 241);
     background-color: red;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 7s;
     animation-name: example;
-    animation-duration: 15s;
+    animation-duration: 4s;
 }
 
 /* Safari 4.0 - 8.0 */
