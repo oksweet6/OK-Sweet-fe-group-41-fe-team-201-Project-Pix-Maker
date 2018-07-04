@@ -31,9 +31,13 @@ function makeGrid(n, o) {
         }
     });
 } 
-function myFunction() {
-alert("Thank very much Udacity\n I appreciate the effort in making me a front end web developer\n love you!");
-alert("OK-Sweet(fe-group-41),(fe-team-201) designed this site")
+$(".emma").click(function(em) {
+    var div = $("#colorPicker");
+    div.animate({height: '100px', opacity: '0.4'}, "slow");
+    div.animate({width: '100px', opacity: '0.8'}, "slow");
+    div.animate({height: '50px', opacity: '0.4'}, "slow");
+    div.animate({width: '500px', opacity: '0.8'}, "slow");
+em = alert("Thank very much Udacity\n I appreciate the effort in making me a front end web developer\n love you!"), alert("OK-Sweet(fe-group-41),(fe-team-201) designed this site");
 return $("tr").remove();
-}
+})
 // Your code goes here!
